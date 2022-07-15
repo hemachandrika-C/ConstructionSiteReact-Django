@@ -1,0 +1,93 @@
+.Label_text {
+  font-family: "Poppins", sans-serif;
+  color: rgb(139, 53, 118);
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 0px;
+  text-align: left;
+}
+
+.recipeimage {
+  width: 450px;
+  height: 450px;
+  margin-top: 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding-bottom: 100px !important;
+  align-items: center;
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  text-align: left;
+}
+
+.ingredients_txt {
+  text-align: left;
+  font-size: large;
+  font-weight: 800;
+  padding: 15px;
+  padding-left: 0;
+}
+
+.openArticlep {
+  background-color: rgb(139, 53, 118);
+  width: 80%;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: auto;
+  cursor: pointer;
+  padding-top: 0 !important;
+  margin-top: -40px;
+}
+
+.borders_el {
+  margin-bottom: 50px;
+  box-shadow: 0 20px 70px -20px rgba(0, 0, 0, 0.54);
+  padding-bottom: 3rem !important;
+  padding-top: 3rem !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  background-color: #fff !important;
+  text-align: center;
+  width: auto;
+}
+
+.borders_el_rl {
+  border-top: 1px solid rgb(40, 41, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(139, 53, 118, 1) 100%
+  );
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .borders_el {
+    width: auto;
+    margin-top: -50px !important;
+    margin-left: -25px;
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .borders_el {
+    width: 100 !important;
+    margin-top: -50px !important;
+    margin-left: -25px;
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,20 @@
+.section{
+    margin-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.fa-glass-items1{
+    color: rgb(139, 53, 118);
+    font-size: 24px;
+}
+
+.arrow {
+    width: 150px;
+    height: 2px;
+    background:  rgb(139, 53, 118);
+    text-align: center;
+    margin: 10px auto;
+    position: relative;
+}
